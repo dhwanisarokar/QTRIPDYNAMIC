@@ -41,7 +41,7 @@ function addAdventureToDOM(adventures) {
       <div class="activity-card">
         <div class="category-banner">${key.category}</div>
         <img class="img-responsive" src=${key.image} />
-        <div class="activities-card-tect text-md-center w-100 mt-3">
+        <div class="activities-card-text text-md-center w-100 mt-3 p-2">
             <div class="d-block d-md-flex justify-content-between flex-wrap pl-3 pr-3">
                 <h5 class="text-left">${key.name}</h5>
                 <p>₹${key.costPerHead}</p>
