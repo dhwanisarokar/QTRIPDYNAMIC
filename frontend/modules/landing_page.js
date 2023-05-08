@@ -33,8 +33,6 @@ function addCityToDOM(id, city, description, image) {
   // TODO: MODULE_CITIES
   // 1. Populate the City details and insert those details into the DOM
 
-  // const {  } = key;
-
   const ele = document.createElement("div");
   ele.className = "col-6 col-lg-3 mb-4";
   ele.innerHTML = `
